@@ -1,0 +1,13 @@
+class Factor {
+    public static void main(String[] args) {
+        // We store the number, of which we wish to obtain the factors in variable n
+        int n = 40;
+        // Now, using for loop and with the following logic, we shall determine the
+        // factors of the integer stored in n
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                System.out.printf(" %d ", i);
+            }
+        }
+    }
+}
